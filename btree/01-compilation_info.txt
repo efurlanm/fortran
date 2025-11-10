@@ -1,0 +1,207 @@
+binarytrees.f90:224:82: missed:   Not inlining: recursive call.
+binarytrees.f90:224:82: missed:   Not inlining: recursive call.
+binarytrees.f90:196:42: missed:   Not inlining: recursive call.
+binarytrees.f90:195:41: missed:   Not inlining: recursive call.
+binarytrees.f90:280:58: missed:   will not early inline: MAIN__._omp_fn.0/19->__memory_pool_MOD_init/5, call is cold and code would grow at least by 49
+binarytrees.f90:284:62: missed:   will not early inline: MAIN__._omp_fn.0/19->__memory_pool_MOD_init/5, call is cold and code would grow at least by 49
+binarytrees.f90:291:101: missed:   will not early inline: MAIN__._omp_fn.0/19->__tree_maker_MOD_check_tree/6, growth 27 exceeds --param early-inlining-insns
+binarytrees.f90:291:101: missed:   will not early inline: MAIN__._omp_fn.0/19->__tree_maker_MOD_make_tree/7, growth 549 exceeds --param early-inlining-insns
+binarytrees.f90:263:54: missed:   will not early inline: MAIN__/8->__tree_maker_MOD_check_tree/6, growth 27 exceeds --param early-inlining-insns
+binarytrees.f90:262:48: missed:   will not early inline: MAIN__/8->__tree_maker_MOD_make_tree/7, growth 549 exceeds --param early-inlining-insns
+binarytrees.f90:261:52: missed:   will not early inline: MAIN__/8->__memory_pool_MOD_init/5, call is cold and code would grow at least by 49
+binarytrees.f90:256:89: missed:   will not early inline: MAIN__/8->__tree_maker_MOD_check_tree/6, growth 27 exceeds --param early-inlining-insns
+binarytrees.f90:256:89: missed:   will not early inline: MAIN__/8->__tree_maker_MOD_make_tree/7, growth 549 exceeds --param early-inlining-insns
+binarytrees.f90:255:53: missed:   will not early inline: MAIN__/8->__memory_pool_MOD_init/5, call is cold and code would grow at least by 49
+binarytrees.f90:230:6: missed:   not inlinable: main/9 -> MAIN__/8, --param large-stack-frame-growth limit reached
+missed:   not inlinable: main/9 -> binary_trees/8, --param large-stack-frame-growth limit reached
+missed:   not inlinable: main/9 -> _gfortran_set_options/17, function body not available
+missed:   not inlinable: main/9 -> _gfortran_set_args/16, function body not available
+missed:   not inlinable: binary_trees/8 -> _gfortran_st_write_done/34, function body not available
+missed:   not inlinable: binary_trees/8 -> _gfortran_transfer_integer_write/33, function body not available
+missed:   not inlinable: binary_trees/8 -> _gfortran_transfer_character_write/32, function body not available
+missed:   not inlinable: binary_trees/8 -> _gfortran_transfer_integer_write/33, function body not available
+missed:   not inlinable: binary_trees/8 -> _gfortran_transfer_character_write/32, function body not available
+missed:   not inlinable: binary_trees/8 -> _gfortran_st_write/31, function body not available
+missed:   not inlinable: binary_trees/8 -> _gfortran_st_write_done/34, function body not available
+missed:   not inlinable: binary_trees/8 -> _gfortran_transfer_integer_write/33, function body not available
+missed:   not inlinable: binary_trees/8 -> _gfortran_transfer_character_write/32, function body not available
+missed:   not inlinable: binary_trees/8 -> _gfortran_transfer_integer_write/33, function body not available
+missed:   not inlinable: binary_trees/8 -> _gfortran_transfer_character_write/32, function body not available
+missed:   not inlinable: binary_trees/8 -> _gfortran_transfer_integer_write/33, function body not available
+missed:   not inlinable: binary_trees/8 -> _gfortran_st_write/31, function body not available
+missed:   not inlinable: binary_trees/8 -> __builtin_GOMP_parallel/36, function body not available
+missed:   not inlinable: binary_trees/8 -> _gfortran_os_error_at/15, function body not available
+missed:   not inlinable: binary_trees/8 -> __builtin_malloc/10, function body not available
+missed:   not inlinable: binary_trees/8 -> _gfortran_runtime_error_at/13, function body not available
+missed:   not inlinable: binary_trees/8 -> _gfortran_runtime_error/14, function body not available
+missed:   not inlinable: binary_trees/8 -> omp_get_max_threads/35, function body not available
+missed:   not inlinable: binary_trees/8 -> _gfortran_os_error_at/15, function body not available
+missed:   not inlinable: binary_trees/8 -> __builtin_malloc/10, function body not available
+missed:   not inlinable: binary_trees/8 -> _gfortran_runtime_error_at/13, function body not available
+missed:   not inlinable: binary_trees/8 -> _gfortran_runtime_error/14, function body not available
+missed:   not inlinable: binary_trees/8 -> check_tree.isra/74, call is unlikely and code size would grow
+missed:   not inlinable: binary_trees/8 -> make_tree.isra/73, call is unlikely and code size would grow
+missed:   not inlinable: binary_trees/8 -> init/5, call is unlikely and code size would grow
+missed:   not inlinable: binary_trees/8 -> __builtin_free/12, function body not available
+missed:   not inlinable: binary_trees/8 -> _gfortran_runtime_error_at/13, function body not available
+missed:   not inlinable: binary_trees/8 -> _gfortran_st_write_done/34, function body not available
+missed:   not inlinable: binary_trees/8 -> _gfortran_transfer_integer_write/33, function body not available
+missed:   not inlinable: binary_trees/8 -> _gfortran_transfer_character_write/32, function body not available
+missed:   not inlinable: binary_trees/8 -> _gfortran_transfer_integer_write/33, function body not available
+missed:   not inlinable: binary_trees/8 -> _gfortran_transfer_character_write/32, function body not available
+missed:   not inlinable: binary_trees/8 -> _gfortran_st_write/31, function body not available
+missed:   not inlinable: binary_trees/8 -> check_tree.isra/74, call is unlikely and code size would grow
+missed:   not inlinable: binary_trees/8 -> make_tree.isra/73, call is unlikely and code size would grow
+missed:   not inlinable: binary_trees/8 -> init/5, call is unlikely and code size would grow
+missed:   not inlinable: binary_trees/8 -> _gfortran_st_read_done/30, function body not available
+missed:   not inlinable: binary_trees/8 -> _gfortran_transfer_integer/29, function body not available
+missed:   not inlinable: binary_trees/8 -> _gfortran_st_read/28, function body not available
+missed:   not inlinable: binary_trees/8 -> _gfortran_get_command_argument_i4/27, function body not available
+missed:   not inlinable: binary_trees/8 -> _gfortran_iargc/26, function body not available
+missed:   not inlinable: MAIN__._omp_fn.0/19 -> __builtin_GOMP_loop_end/23, function body not available
+missed:   not inlinable: MAIN__._omp_fn.0/19 -> init/5, call is unlikely and code size would grow
+missed:   not inlinable: MAIN__._omp_fn.0/19 -> init/5, call is unlikely and code size would grow
+missed:   not inlinable: MAIN__._omp_fn.0/19 -> __builtin_free/12, function body not available
+missed:   not inlinable: MAIN__._omp_fn.0/19 -> check_tree.isra/74, call is unlikely and code size would grow
+missed:   not inlinable: MAIN__._omp_fn.0/19 -> make_tree.isra/73, call is unlikely and code size would grow
+missed:   not inlinable: MAIN__._omp_fn.0/19 -> __builtin_GOMP_loop_nonmonotonic_dynamic_next/22, function body not available
+missed:   not inlinable: MAIN__._omp_fn.0/19 -> __builtin_GOMP_loop_nonmonotonic_dynamic_start/21, function body not available
+missed:   not inlinable: MAIN__._omp_fn.0/19 -> omp_get_thread_num/20, function body not available
+missed:   not inlinable: init/5 -> _gfortran_os_error_at/15, function body not available
+missed:   not inlinable: init/5 -> __builtin_malloc/10, function body not available
+missed:   not inlinable: init/5 -> _gfortran_runtime_error/14, function body not available
+missed:   not inlinable: init/5 -> __builtin_free/12, function body not available
+missed:   not inlinable: __memory_pool_MOD_init.part.0/38 -> _gfortran_runtime_error_at/13, function body not available
+missed:   not inlinable: __final_memory_pool_Arena_t/2 -> __builtin_free/12, function body not available
+missed:   not inlinable: __final_memory_pool_Arena_t/2 -> __builtin_free/12, function body not available
+missed:   not inlinable: __final_memory_pool_Arena_t/2 -> __builtin_free/12, function body not available
+missed:   not inlinable: __final_memory_pool_Arena_t/2 -> __builtin_malloc/10, function body not available
+missed:   not inlinable: __final_memory_pool_Arena_t/2 -> __builtin_malloc/10, function body not available
+missed:   not inlinable: __copy_memory_pool_Arena_t/3 -> __builtin_memcpy/11, function body not available
+missed:   not inlinable: __copy_memory_pool_Arena_t/3 -> __builtin_malloc/10, function body not available
+missed:    not inlining recursively: frequency of recursive call is too small
+missed:    not inlining recursively: frequency of recursive call is too small
+missed:    not inlining recursively: frequency of recursive call is too small
+missed:    not inlining recursively: frequency of recursive call is too small
+missed:    not inlining recursively: frequency of recursive call is too small
+missed:    not inlining recursively: frequency of recursive call is too small
+missed:    not inlining recursively: frequency of recursive call is too small
+missed:    not inlining recursively: frequency of recursive call is too small
+missed:    not inlining recursively: frequency of recursive call is too small
+missed:    not inlining recursively: frequency of recursive call is too small
+missed:    not inlining recursively: frequency of recursive call is too small
+missed:    not inlining recursively: frequency of recursive call is too small
+missed:    not inlining recursively: frequency of recursive call is too small
+missed:    not inlining recursively: frequency of recursive call is too small
+missed:    not inlining recursively: frequency of recursive call is too small
+missed:    not inlining recursively: frequency of recursive call is too small
+missed:   not inlinable: main/9 -> binary_trees/8, --param large-stack-frame-growth limit reached
+missed:   not inlinable: main/9 -> binary_trees/8, --param large-stack-frame-growth limit reached
+binarytrees.f90:230:6: missed: statement clobbers memory: _gfortran_set_args (argc_2(D), argv_3(D));
+binarytrees.f90:230:6: missed: statement clobbers memory: _gfortran_set_options (7, &options.33[0]);
+binarytrees.f90:230:6: missed: statement clobbers memory: binary_trees ();
+binarytrees.f90:245:6: missed: statement clobbers memory: _1 = _gfortran_iargc ();
+binarytrees.f90:246:38: missed: statement clobbers memory: _gfortran_get_command_argument_i4 (&C.5447, &arg, 0B, 0B, 32);
+binarytrees.f90:247:22: missed: statement clobbers memory: _gfortran_st_read (&dt_parm.11);
+binarytrees.f90:247:22: missed: statement clobbers memory: _gfortran_transfer_integer (&dt_parm.11, &n_in, 4);
+binarytrees.f90:247:22: missed: statement clobbers memory: _gfortran_st_read_done (&dt_parm.11);
+binarytrees.f90:255:53: missed: statement clobbers memory: init (&class.13, &D.5424);
+binarytrees.f90:256:89: missed: statement clobbers memory: _5 = make_tree.isra (_351, &stretch_pool);
+binarytrees.f90:256:89: missed: statement clobbers memory: _6 = check_tree.isra (&D.5425, _351, &stretch_pool);
+binarytrees.f90:257:92: missed: statement clobbers memory: _gfortran_st_write (&dt_parm.14);
+binarytrees.f90:257:47: missed: statement clobbers memory: _gfortran_transfer_character_write (&dt_parm.14, &"stretch tree of depth "[1]{lb: 1 sz: 1}, 22);
+binarytrees.f90:257:62: missed: statement clobbers memory: _gfortran_transfer_integer_write (&dt_parm.14, &stretch_depth, 4);
+binarytrees.f90:257:85: missed: statement clobbers memory: _gfortran_transfer_character_write (&dt_parm.14, &"\t check: "[1]{lb: 1 sz: 1}, 9);
+binarytrees.f90:257:92: missed: statement clobbers memory: _gfortran_transfer_integer_write (&dt_parm.14, &check, 4);
+binarytrees.f90:257:92: missed: statement clobbers memory: _gfortran_st_write_done (&dt_parm.14);
+binarytrees.f90:258:32: missed: statement clobbers memory: __builtin_free (_7);
+binarytrees.f90:261:52: missed: statement clobbers memory: init (&class.15, &D.5428);
+binarytrees.f90:262:48: missed: statement clobbers memory: make_tree.isra (_409, &long_lived_pool);
+binarytrees.f90:263:54: missed: statement clobbers memory: _10 = check_tree.isra (&C.5448, _408, &long_lived_pool);
+binarytrees.f90:266:52: missed: statement clobbers memory: _26 = __builtin_malloc (_25);
+binarytrees.f90:267:13: missed: statement clobbers memory: __builtin_memset (_26, 0, _49);
+binarytrees.f90:269:37: missed: statement clobbers memory: num_threads_193 = omp_get_max_threads ();
+binarytrees.f90:270:37: missed: statement clobbers memory: _48 = __builtin_malloc (_47);
+binarytrees.f90:229:20: missed: statement clobbers memory: __builtin_GOMP_parallel (MAIN__._omp_fn.0, &.omp_data_o.83, 0, 0);
+binarytrees.f90:301:128: missed: statement clobbers memory: _gfortran_st_write (&dt_parm.30);
+binarytrees.f90:301:39: missed: statement clobbers memory: _gfortran_transfer_integer_write (&dt_parm.30, &iterations, 4);
+binarytrees.f90:301:70: missed: statement clobbers memory: _gfortran_transfer_character_write (&dt_parm.30, &"\t trees of depth "[1]{lb: 1 sz: 1}, 17);
+binarytrees.f90:301:73: missed: statement clobbers memory: _gfortran_transfer_integer_write (&dt_parm.30, &d, 4);
+binarytrees.f90:301:96: missed: statement clobbers memory: _gfortran_transfer_character_write (&dt_parm.30, &"\t check: "[1]{lb: 1 sz: 1}, 9);
+binarytrees.f90:301:128: missed: statement clobbers memory: _gfortran_transfer_integer_write (&dt_parm.30, _72, 4);
+binarytrees.f90:301:128: missed: statement clobbers memory: _gfortran_st_write_done (&dt_parm.30);
+binarytrees.f90:304:91: missed: statement clobbers memory: _gfortran_st_write (&dt_parm.32);
+binarytrees.f90:304:50: missed: statement clobbers memory: _gfortran_transfer_character_write (&dt_parm.32, &"long lived tree of depth "[1]{lb: 1 sz: 1}, 25);
+binarytrees.f90:304:61: missed: statement clobbers memory: _gfortran_transfer_integer_write (&dt_parm.32, &max_depth, 4);
+binarytrees.f90:304:84: missed: statement clobbers memory: _gfortran_transfer_character_write (&dt_parm.32, &"\t check: "[1]{lb: 1 sz: 1}, 9);
+binarytrees.f90:304:91: missed: statement clobbers memory: _gfortran_transfer_integer_write (&dt_parm.32, &check, 4);
+binarytrees.f90:304:91: missed: statement clobbers memory: _gfortran_st_write_done (&dt_parm.32);
+binarytrees.f90:270:37: missed: statement clobbers memory: _gfortran_os_error_at (&"In file \'binarytrees.f90\', around line 271"[1]{lb: 1 sz: 1}, &"Error allocating %lu bytes"[1]{lb: 1 sz: 1}, _76);
+binarytrees.f90:270:11: missed: statement clobbers memory: _gfortran_runtime_error_at (&"At line 270 of file binarytrees.f90"[1]{lb: 1 sz: 1}, &"Attempting to allocate already allocated variable \'%s\'"[1]{lb: 1 sz: 1}, &"thread_pools"[1]{lb: 1 sz: 1});
+binarytrees.f90:266:52: missed: statement clobbers memory: _gfortran_os_error_at (&"In file \'binarytrees.f90\', around line 267"[1]{lb: 1 sz: 1}, &"Error allocating %lu bytes"[1]{lb: 1 sz: 1}, _74);
+binarytrees.f90:266:11: missed: statement clobbers memory: _gfortran_runtime_error_at (&"At line 266 of file binarytrees.f90"[1]{lb: 1 sz: 1}, &"Attempting to allocate already allocated variable \'%s\'"[1]{lb: 1 sz: 1}, &"results"[1]{lb: 1 sz: 1});
+binarytrees.f90:258:13: missed: statement clobbers memory: _gfortran_runtime_error_at (&"At line 258 of file binarytrees.f90"[1]{lb: 1 sz: 1}, &"Attempt to DEALLOCATE unallocated \'%s\'"[1]{lb: 1 sz: 1}, &"stretch_pool"[1]{lb: 1 sz: 1});
+binarytrees.f90:61:53: missed: statement clobbers memory: __builtin_free (_2);
+binarytrees.f90:63:47: missed: statement clobbers memory: _18 = __builtin_malloc (_17);
+binarytrees.f90:63:47: missed: statement clobbers memory: _gfortran_os_error_at (&"In file \'binarytrees.f90\', around line 64"[1]{lb: 1 sz: 1}, &"Error allocating %lu bytes"[1]{lb: 1 sz: 1}, _26);
+binarytrees.f90:63:13: missed: statement clobbers memory: _gfortran_runtime_error_at (&"At line 63 of file binarytrees.f90"[1]{lb: 1 sz: 1}, &"Attempting to allocate already allocated variable \'%s\'"[1]{lb: 1 sz: 1}, &"this"[1]{lb: 1 sz: 1});
+binarytrees.f90:195:41: missed: statement clobbers memory: left_364 = make_tree.isra (_363, arena_1(D));
+binarytrees.f90:196:42: missed: statement clobbers memory: right_365 = make_tree.isra (_363, arena_1(D));
+binarytrees.f90:146:31: missed: not vectorized: vectorization is not profitable.
+binarytrees.f90:150:27: missed: not vectorized: vectorization is not profitable.
+binarytrees.f90:153:30: missed: not vectorized: vectorization is not profitable.
+binarytrees.f90:154:32: missed: not vectorized: vectorization is not profitable.
+binarytrees.f90:157:32: missed: not vectorized: vectorization is not profitable.
+binarytrees.f90:163:30: missed: not vectorized: vectorization is not profitable.
+binarytrees.f90:164:32: missed: not vectorized: vectorization is not profitable.
+binarytrees.f90:167:32: missed: not vectorized: vectorization is not profitable.
+binarytrees.f90:173:27: missed: not vectorized: vectorization is not profitable.
+binarytrees.f90:176:30: missed: not vectorized: vectorization is not profitable.
+binarytrees.f90:177:32: missed: not vectorized: vectorization is not profitable.
+binarytrees.f90:180:32: missed: not vectorized: vectorization is not profitable.
+binarytrees.f90:186:30: missed: not vectorized: vectorization is not profitable.
+binarytrees.f90:187:32: missed: not vectorized: vectorization is not profitable.
+binarytrees.f90:190:32: missed: not vectorized: vectorization is not profitable.
+binarytrees.f90:120:31: missed: not vectorized: vectorization is not profitable.
+binarytrees.f90:124:29: missed: not vectorized: vectorization is not profitable.
+binarytrees.f90:125:32: missed: not vectorized: vectorization is not profitable.
+binarytrees.f90:128:32: missed: not vectorized: vectorization is not profitable.
+binarytrees.f90:134:29: missed: not vectorized: vectorization is not profitable.
+binarytrees.f90:135:32: missed: not vectorized: vectorization is not profitable.
+binarytrees.f90:138:32: missed: not vectorized: vectorization is not profitable.
+binarytrees.f90:107:32: missed: not vectorized: vectorization is not profitable.
+binarytrees.f90:109:33: missed: not vectorized: vectorization is not profitable.
+binarytrees.f90:113:33: missed: not vectorized: vectorization is not profitable.
+binarytrees.f90:224:82: missed: statement clobbers memory: _147 = check_tree.isra (&left, _146, arena_2(D));
+binarytrees.f90:224:82: missed: statement clobbers memory: _149 = check_tree.isra (&right, _146, arena_2(D));
+binarytrees.f90:224:82: missed: statement clobbers memory: _127 = check_tree.isra (&left, _146, arena_2(D));
+binarytrees.f90:224:82: missed: statement clobbers memory: _129 = check_tree.isra (&right, _146, arena_2(D));
+binarytrees.f90:224:82: missed: statement clobbers memory: _187 = check_tree.isra (&left, _146, arena_2(D));
+binarytrees.f90:224:82: missed: statement clobbers memory: _189 = check_tree.isra (&right, _146, arena_2(D));
+binarytrees.f90:224:82: missed: statement clobbers memory: _167 = check_tree.isra (&left, _146, arena_2(D));
+binarytrees.f90:224:82: missed: statement clobbers memory: _169 = check_tree.isra (&right, _146, arena_2(D));
+binarytrees.f90:224:82: missed: statement clobbers memory: _267 = check_tree.isra (&left, _266, arena_2(D));
+binarytrees.f90:224:82: missed: statement clobbers memory: _269 = check_tree.isra (&right, _266, arena_2(D));
+binarytrees.f90:224:82: missed: statement clobbers memory: _247 = check_tree.isra (&left, _266, arena_2(D));
+binarytrees.f90:224:82: missed: statement clobbers memory: _249 = check_tree.isra (&right, _266, arena_2(D));
+binarytrees.f90:224:82: missed: statement clobbers memory: _307 = check_tree.isra (&left, _266, arena_2(D));
+binarytrees.f90:224:82: missed: statement clobbers memory: _309 = check_tree.isra (&right, _266, arena_2(D));
+binarytrees.f90:224:82: missed: statement clobbers memory: _287 = check_tree.isra (&left, _266, arena_2(D));
+binarytrees.f90:224:82: missed: statement clobbers memory: _289 = check_tree.isra (&right, _266, arena_2(D));
+binarytrees.f90:273:38: missed: statement clobbers memory: _18 = omp_get_thread_num ();
+binarytrees.f90:272:60: missed: statement clobbers memory: _27 = __builtin_GOMP_loop_nonmonotonic_dynamic_start (0, _25, 1, 1, &.istart0.84, &.iend0.85);
+binarytrees.f90:283:53: missed: statement clobbers memory: __builtin_free (_47);
+binarytrees.f90:284:62: missed: statement clobbers memory: init (&class.27, &D.5917);
+binarytrees.f90:280:58: missed: statement clobbers memory: init (&class.26, &D.5919);
+binarytrees.f90:291:101: missed: statement clobbers memory: _87 = make_tree.isra (_33, _85);
+binarytrees.f90:291:101: missed: statement clobbers memory: _89 = check_tree.isra (&D.5915, _33, _85);
+binarytrees.f90:272:60: missed: statement clobbers memory: _101 = __builtin_GOMP_loop_nonmonotonic_dynamic_next (&.istart0.84, &.iend0.85);
+binarytrees.f90:272:60: missed: statement clobbers memory: __builtin_GOMP_loop_end ();
+binarytrees.f90:72:22: missed: statement clobbers memory: _47 = __builtin_malloc (_4);
+binarytrees.f90:72:22: missed: statement clobbers memory: _51 = __builtin_malloc (_7);
+binarytrees.f90:72:22: missed: statement clobbers memory: __builtin_free (_31);
+binarytrees.f90:72:22: missed: statement clobbers memory: __builtin_free (_51);
+binarytrees.f90:72:22: missed: statement clobbers memory: __builtin_free (_47);
+binarytrees.f90:72:22: missed: not vectorized: more than one data ref in stmt: *dst_10(D) = *src_11(D);
+binarytrees.f90:72:22: missed: statement clobbers memory: _18 = __builtin_malloc (_8);
+binarytrees.f90:72:22: missed: statement clobbers memory: __builtin_memcpy (_18, _1, _7);
